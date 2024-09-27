@@ -8,7 +8,7 @@ const taskRouter = require('./routes/task.router.js')
   // This will be inherited by the rest of your server.
 require('dotenv').config()
 
-console.log("Enviornment Variables:", process.env.PORT)
+console.log("Enviornment Variables:", process.env.DATABASE_URL)
 
 // Setup bodyParser - urlencoded for jQuery, json for axios/react - Postman can do either
 app.use( bodyParser.urlencoded( { extended: true } ) );
