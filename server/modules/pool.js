@@ -2,6 +2,7 @@
 const pg = require('pg');
 
 let pool;
+// ! Need to require dotenv if you want to use environment variable to use cloud DB on locally running app.
 // require('dotenv').config()
 
 // * If there is an existing DATABASE_URL, then use it...
